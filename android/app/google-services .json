@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1030970755549",
+    "project_id": "react-native--auth-a324c",
+    "storage_bucket": "react-native--auth-a324c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030970755549:android:0d629c07332bfb7b2d4e34",
+        "android_client_info": {
+          "package_name": "com.deeplinkingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoFVzXZ4MmfCgptqmDHNaFoR2zzZETvRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
