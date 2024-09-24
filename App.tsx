@@ -5,9 +5,10 @@
  * @format
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  Alert,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -25,9 +26,15 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import RootNavigation from './src/navigation/RootNavigation';
+import Biometric from './src/components/Biometric';
 
 function App(): React.JSX.Element {
-  return <RootNavigation />;
+  return (
+    <>
+      <Biometric />
+      <RootNavigation />
+    </>
+  );
 }
 
 const styles = StyleSheet.create({

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DeepLinkingApp</string>
+    <string name="facebook_app_id">809615731068831</string>
 </resources>

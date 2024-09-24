@@ -39,7 +39,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       {loading ? (
-        <ActivityIndicator color="blue" size="large" />
+        <ActivityIndicator color="#DB3022" size="large" />
       ) : (
         <>
           <FlatList
